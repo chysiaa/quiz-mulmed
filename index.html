@@ -28,23 +28,13 @@
                         <span class="header-score">Score 0 / 10</span>
                    </div> 
                    <div class="quiz-body">
-                       <h2 class="question-text">Aku sering dijadikan peliharaan, suka menggonggong, dan dikenal sebagai sahabat manusia. Siapakah aku?</h2>
-                       <img src="asset/anjing.jpg" alt="Dogpicture" class="question-image">
-                        <div class="option-list">
-                            <!-- <div class="option">
-                                <span>Kucing</span>
-                            </div>
-                            <div class="option">
-                                <span>Anjing</span>
-                            </div>
-                            <div class="option">
-                                <span>Rubah</span>
-                            </div>
-                            <div class="option">
-                                <span>Serigala</span>
-                            </div> -->
-                        </div>
+                    <h2 class="question-text">Aku sering dijadikan peliharaan, suka menggonggong, dan dikenal sebagai sahabat manusia. Siapakah aku?</h2>
+                    <div class="question-media"></div>
+                    <div class="option-list">
+                        <!-- Opsi jawaban akan ditambahkan di sini melalui JavaScript -->
                     </div>
+                </div>
+                
                     <div class="quiz-footer">
                         <span class="question-total">1 of 5 questions</span>
                         <button class="next-btn">Next</button>
@@ -64,14 +54,23 @@
     <div class="popup-info">
         <h2>Pilih Jumlah Soal</h2>
         <div class="slider-container">
-            <input type="range" min="10" max="25" value="0" class="slider" id="myRange">
-            <span id="sliderValue">10</span>
+            <input type="range" min="5" max="25" value="5" class="slider" id="myRange">
+            <span id="sliderValue">5</span>
         </div>
         <div class="btn-group">
             <button class="info-btn exit-btn">Exit</button>
             <a href="#" class="info-btn continue-btn">Start Quiz</a>
         </div>
     </div>
+    
+    <div class="modal-scoreboard" id="scoreboard">
+        <div class="modal-content">
+            <h2>Scoreboard</h2>
+            <p id="scoreText">You scored <span id="finalScore">0</span> out of <span id="totalQuestions">0</span></p>
+            <button onclick="restartQuiz()" class="info-btn">Restart Quiz</button>
+        </div>
+    </div>
+    
     <script src="questions.js"></script>
     <script src="script.js"></script>
 </body>
