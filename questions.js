@@ -9,7 +9,8 @@ let questions = [
             "Rubah", 
             "Serigala"
         ],
-        image: "asset/anjing.jpg"
+        mediaType: "video",
+        mediaSrc: "asset/deer.mp4"
     },
     {
         numb: 2,
@@ -21,7 +22,8 @@ let questions = [
             "Bebek", 
             "Kelelawar"
         ],
-        image: "assets/burung.jpg"
+        mediaType: "image",
+        mediaSrc: "asset/elephant.jpg"
     },
     {
         numb: 3,
@@ -33,7 +35,8 @@ let questions = [
             "Singa", 
             "Leopard"
         ],
-        image: "assets/cheetah.jpg"
+        mediaType: "image",
+        mediaSrc: "assets/cheetah.jpg"
     },
     {
         numb: 4,
@@ -45,7 +48,8 @@ let questions = [
             "Kuda Nil", 
             "Bison"
         ],
-        image: "assets/gajah.jpg"
+        mediaType: "image",
+        mediaSrc: "assets/gajah.jpg"
     },
     {
         numb: 5,
@@ -68,6 +72,8 @@ let questions = [
             "Ikan Hiu", 
             "Anjing Laut"
         ],
+        mediaType: "image",
+        mediaSrc: "assets/paus.jpg"
     },
     {
         numb: 7,
@@ -78,7 +84,9 @@ let questions = [
             "Kucing", 
             "Tupai", 
             "Koala"
-        ]
+        ],
+        mediaType: "image",
+        mediaSrc: "assets/monyet.jpg"
     },
     {
         numb: 8,
@@ -89,7 +97,9 @@ let questions = [
             "Bunglon", 
             "Iguana", 
             "Komodo"
-        ]
+        ],
+        mediaType: "image",
+        mediaSrc: "assets/bunglon.jpg"
     },
     {
         numb: 9,
@@ -101,7 +111,8 @@ let questions = [
             "Kepiting", 
             "Udang"
         ],
-        image: "assets/kura-kura.jpg"
+        mediaType: "image",
+        mediaSrc: "assets/kura-kura.jpg"
     },
     {
         numb: 10,
@@ -112,7 +123,9 @@ let questions = [
             "Kelinci", 
             "Tikus", 
             "Hamster"
-        ]
+        ],
+        mediaType: "image",
+        mediaSrc: "assets/kelinci.jpg"
     },
     {
         numb: 11,
@@ -124,7 +137,8 @@ let questions = [
             "Serigala", 
             "Pinguin"
         ],
-        image: "assets/beruang-kutub.jpg"
+        mediaType: "image",
+        mediaSrc: "assets/beruang-kutub.jpg"
     },
     {
         numb: 12,
@@ -135,7 +149,9 @@ let questions = [
             "Ular", 
             "Iguana", 
             "Biawak"
-        ]
+        ],
+        mediaType: "image",
+        mediaSrc: "assets/ular.jpg"
     },
     {
         numb: 13,
@@ -147,7 +163,8 @@ let questions = [
             "Cheetah", 
             "Leopard"
         ],
-        image: "assets/singa.jpg"
+        mediaType: "image",
+        mediaSrc: "assets/singa.jpg"
     },
     {
         numb: 14,
@@ -159,7 +176,8 @@ let questions = [
             "Ikan Paus", 
             "Lumba-lumba"
         ],
-        image: "assets/ikan-pari.jpg"
+        mediaType: "image",
+        mediaSrc: "assets/ikan-pari.jpg"
     },
     {
         numb: 15,
@@ -170,7 +188,9 @@ let questions = [
             "Kanguru", 
             "Panda", 
             "Beruang"
-        ]
+        ],
+        mediaType: "image",
+        mediaSrc: "assets/kanguru.jpg"
     },
     {
         numb: 16,
@@ -181,7 +201,9 @@ let questions = [
             "Burung Beo", 
             "Burung Hantu", 
             "Burung Merpati"
-        ]
+        ],
+        mediaType: "image",
+        mediaSrc: "assets/burung-kenari.jpg"
     },
     {
         numb: 17,
@@ -193,7 +215,8 @@ let questions = [
             "Kuda", 
             "Gajah"
         ],
-        image: "assets/jerapah.jpg"
+        mediaType: "image",
+        mediaSrc: "assets/jerapah.jpg"
     },
     {
         numb: 18,
@@ -204,7 +227,9 @@ let questions = [
             "Cheetah", 
             "Harimau", 
             "Leopard"
-        ]
+        ],
+        mediaType: "image",
+        mediaSrc: "assets/cheetah.jpg"
     },
     {
         numb: 19,
@@ -215,7 +240,9 @@ let questions = [
             "Burung Merak", 
             "Burung Kenari", 
             "Burung Elang"
-        ]
+        ],
+        mediaType: "image",
+        mediaSrc: "assets/burung-hantu.jpg"
     },
     {
         numb: 20,
@@ -226,7 +253,9 @@ let questions = [
             "Katak", 
             "Buaya", 
             "Salamander"
-        ]
+        ],
+        mediaType: "image",
+        mediaSrc: "assets/katak.jpg"
     },
     {
         numb: 21,
@@ -238,51 +267,21 @@ let questions = [
             "Singa", 
             "Cheetah"
         ],
-        image: "assets/harimau.jpg"
+        mediaType: "image",
+        mediaSrc: "assets/harimau.jpg"
     },
     {
         numb: 22,
-        question: "Hewan ini mengeluarkan tinta hitam untuk melindungi diri. Apa namanya?",
-        answer: "Cumi-cumi",
+        question: "Hewan ini dikenal dengan suara melengkingnya dan sering dijadikan hewan peliharaan. Apa namanya?",
+        answer: "Burung Merpati",
         options: [
-            "Ubur-ubur", 
-            "Cumi-cumi", 
-            "Ikan Hiu", 
-            "Anemon Laut"
-        ]
-    },
-    {
-        numb: 23,
-        question: "Hewan ini bisa mengeluarkan sinar di malam hari. Apa namanya?",
-        answer: "Kunang-kunang",
-        options: [
-            "Lalat", 
-            "Nyamuk", 
-            "Kunang-kunang", 
-            "Kumbang"
-        ]
-    },
-    {
-        numb: 24,
-        question: "Hewan ini memiliki kantung di bawah mulutnya untuk mengumpulkan makanan. Apa namanya?",
-        answer: "Pelikan",
-        options: [
-            "Bebek", 
-            "Flamingo", 
-            "Pelikan", 
-            "Angsa"
+            "Burung Kenari", 
+            "Burung Hantu", 
+            "Burung Merpati", 
+            "Burung Elang"
         ],
-        image: "assets/pelikan.jpg"
+        mediaType: "image",
+        mediaSrc: "assets/burung-merpati.jpg"
     },
-    {
-        numb: 25,
-        question: "Hewan ini dikenal dengan kemampuan melompat jauh dan juga bisa berenang. Apakah ini?",
-        answer: "Katak",
-        options: [
-            "Katak", 
-            "Salamander", 
-            "Iguana", 
-            "Komodo"
-        ]
-    }
+    
 ];

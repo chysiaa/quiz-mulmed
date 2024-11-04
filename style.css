@@ -52,6 +52,18 @@ body {
     color: #2aaa8a;;
 }
 
+#audio-controls {
+    display: flex;
+    align-items: center;
+}
+#volume-slider {
+    margin-left: 10px;
+}
+#icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
 .main{
     min-height: 100vh;
     background: url('asset/7261029.webp') no-repeat center;
@@ -249,7 +261,7 @@ body {
 
 .quiz-section {
     left: -50%;
-    position: relative;
+    position:relative;
     top: 0;
     width: 100%;
     height: auto;
@@ -460,6 +472,7 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
 .modal-content {
