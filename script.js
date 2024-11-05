@@ -111,6 +111,8 @@ function showQuestions(index) {
                 questionMediaContainer.innerHTML = `<img src="${mediaSrc}" alt="question-image" class="question-media-content" onerror="this.onerror=null; this.src='default-image.png';">`;
             } else if (mediaType === "video") {
                 questionMediaContainer.innerHTML = `<video controls class="question-media-content" autoplay onerror="this.style.display='none';"><source src="${mediaSrc}" type="video/mp4">Your browser does not support the video tag.</video>`;
+            } else if (mediaType === "audio") {
+                questionMediaContainer.innerHTML = `<audio controls class="question-media-content" autoplay onerror="this.style.display='none';"><source src="${mediaSrc}" type="audio/mp3">Your browser does not support the audio tag.</audio>`;
             } else if (mediaType === "gif") {
                 questionMediaContainer.innerHTML = `<img src="${mediaSrc}" alt="question-gif" class="question-media-content" onerror="this.onerror=null; this.src='default-gif.gif';">`;
             } else {

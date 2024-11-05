@@ -10,7 +10,7 @@ let questions = [
             "Serigala"
         ],
         mediaType: "video",
-        mediaSrc: "asset/deer.mp4"
+        mediaSrc: "asset/bgm.mp3"
     },
     {
         numb: 2,
